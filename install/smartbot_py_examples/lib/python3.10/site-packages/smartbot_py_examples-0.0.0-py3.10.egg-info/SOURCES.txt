@@ -11,6 +11,7 @@ setup.py
 resource/smartbot_py_examples
 smartbot_py_examples/__init__.py
 smartbot_py_examples/simple_publisher.py
+smartbot_py_examples/simple_subscriber.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'simple_publisher = smartbot_py_examples.simple_publisher:main'
+            'simple_publisher = smartbot_py_examples.simple_publisher:main',
+            'simple_subscriber = smartbot_py_examples.simple_subscriber:main'
         ],
     },
 )
