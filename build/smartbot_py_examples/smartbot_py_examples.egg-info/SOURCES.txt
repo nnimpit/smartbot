@@ -10,6 +10,7 @@ setup.py
 ../../build/smartbot_py_examples/smartbot_py_examples.egg-info/zip-safe
 resource/smartbot_py_examples
 smartbot_py_examples/__init__.py
+smartbot_py_examples/simple_parameter.py
 smartbot_py_examples/simple_publisher.py
 smartbot_py_examples/simple_subscriber.py
 test/test_copyright.py

@@ -1,0 +1,23 @@
+[0.423s] Invoking command in '/home/nnimpit/smartbot_ws/smartbot/src/smartbot_py_examples': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/nnimpit/smartbot_ws/smartbot/src/build/smartbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nnimpit/smartbot_ws/smartbot/src/install/smartbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/smartbot_py_examples build --build-base /home/nnimpit/smartbot_ws/smartbot/src/build/smartbot_py_examples/build install --record /home/nnimpit/smartbot_ws/smartbot/src/build/smartbot_py_examples/install.log --single-version-externally-managed install_data
+[0.592s] running egg_info
+[0.592s] writing ../build/smartbot_py_examples/smartbot_py_examples.egg-info/PKG-INFO
+[0.592s] writing dependency_links to ../build/smartbot_py_examples/smartbot_py_examples.egg-info/dependency_links.txt
+[0.593s] writing entry points to ../build/smartbot_py_examples/smartbot_py_examples.egg-info/entry_points.txt
+[0.593s] writing requirements to ../build/smartbot_py_examples/smartbot_py_examples.egg-info/requires.txt
+[0.593s] writing top-level names to ../build/smartbot_py_examples/smartbot_py_examples.egg-info/top_level.txt
+[0.594s] reading manifest file '../build/smartbot_py_examples/smartbot_py_examples.egg-info/SOURCES.txt'
+[0.594s] writing manifest file '../build/smartbot_py_examples/smartbot_py_examples.egg-info/SOURCES.txt'
+[0.595s] running build
+[0.595s] running build_py
+[0.595s] running install
+[0.595s] running install_lib
+[0.596s] running install_data
+[0.596s] running install_egg_info
+[0.597s] removing '/home/nnimpit/smartbot_ws/smartbot/src/install/smartbot_py_examples/lib/python3.10/site-packages/smartbot_py_examples-0.0.0-py3.10.egg-info' (and everything under it)
+[0.597s] Copying ../build/smartbot_py_examples/smartbot_py_examples.egg-info to /home/nnimpit/smartbot_ws/smartbot/src/install/smartbot_py_examples/lib/python3.10/site-packages/smartbot_py_examples-0.0.0-py3.10.egg-info
+[0.597s] running install_scripts
+[0.611s] Installing simple_parameter script to /home/nnimpit/smartbot_ws/smartbot/src/install/smartbot_py_examples/lib/smartbot_py_examples
+[0.611s] Installing simple_publisher script to /home/nnimpit/smartbot_ws/smartbot/src/install/smartbot_py_examples/lib/smartbot_py_examples
+[0.611s] Installing simple_subscriber script to /home/nnimpit/smartbot_ws/smartbot/src/install/smartbot_py_examples/lib/smartbot_py_examples
+[0.611s] writing list of installed files to '/home/nnimpit/smartbot_ws/smartbot/src/build/smartbot_py_examples/install.log'
+[0.630s] Invoked command in '/home/nnimpit/smartbot_ws/smartbot/src/smartbot_py_examples' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/nnimpit/smartbot_ws/smartbot/src/build/smartbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nnimpit/smartbot_ws/smartbot/src/install/smartbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/smartbot_py_examples build --build-base /home/nnimpit/smartbot_ws/smartbot/src/build/smartbot_py_examples/build install --record /home/nnimpit/smartbot_ws/smartbot/src/build/smartbot_py_examples/install.log --single-version-externally-managed install_data
