@@ -43,9 +43,12 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/$(PROJECT_NAME)" TYPE DIRECTORY FILES
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smartbot_description" TYPE DIRECTORY FILES
     "/home/nnimpit/smartbot_ws/smartbot/src/smartbot_description/meshes"
     "/home/nnimpit/smartbot_ws/smartbot/src/smartbot_description/urdf"
+    "/home/nnimpit/smartbot_ws/smartbot/src/smartbot_description/models"
+    "/home/nnimpit/smartbot_ws/smartbot/src/smartbot_description/launch"
+    "/home/nnimpit/smartbot_ws/smartbot/src/smartbot_description/rviz"
     )
 endif()
 
