@@ -1,0 +1,64 @@
+[0.013s] Invoking command in '/home/nnimpit/smartbot_ws/smartbot/build/smartbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/nnimpit/smartbot_ws/smartbot/build/smartbot_controller -- -j12 -l12
+[0.030s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.125s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[0.126s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.141s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.143s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.146s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.153s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.160s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.174s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.257s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.330s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.330s] -- Added test 'lint_cmake' to check CMake code style
+[0.330s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.331s] -- Added test 'xmllint' to check XML markup files
+[0.331s] -- Configuring done
+[0.334s] -- Generating done
+[0.335s] -- Build files have been written to: /home/nnimpit/smartbot_ws/smartbot/build/smartbot_controller
+[0.359s] Built target ament_cmake_python_copy_smartbot_controller
+[0.546s] running egg_info
+[0.563s] writing smartbot_controller.egg-info/PKG-INFO
+[0.563s] writing dependency_links to smartbot_controller.egg-info/dependency_links.txt
+[0.563s] writing top-level names to smartbot_controller.egg-info/top_level.txt
+[0.611s] reading manifest file 'smartbot_controller.egg-info/SOURCES.txt'
+[0.611s] writing manifest file 'smartbot_controller.egg-info/SOURCES.txt'
+[0.635s] Built target ament_cmake_python_build_smartbot_controller_egg
+[0.642s] Invoked command in '/home/nnimpit/smartbot_ws/smartbot/build/smartbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/nnimpit/smartbot_ws/smartbot/build/smartbot_controller -- -j12 -l12
+[0.656s] Invoking command in '/home/nnimpit/smartbot_ws/smartbot/build/smartbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/nnimpit/smartbot_ws/smartbot/build/smartbot_controller
+[0.663s] -- Install configuration: ""
+[0.663s] -- Up-to-date: /home/nnimpit/smartbot_ws/smartbot/install/smartbot_controller/share/smartbot_controller/environment/pythonpath.sh
+[0.663s] -- Installing: /home/nnimpit/smartbot_ws/smartbot/install/smartbot_controller/share/smartbot_controller/environment/pythonpath.dsv
+[0.663s] -- Up-to-date: /home/nnimpit/smartbot_ws/smartbot/install/smartbot_controller/lib/python3.12/site-packages/smartbot_controller-0.0.0-py3.12.egg-info
+[0.663s] -- Installing: /home/nnimpit/smartbot_ws/smartbot/install/smartbot_controller/lib/python3.12/site-packages/smartbot_controller-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.663s] -- Installing: /home/nnimpit/smartbot_ws/smartbot/install/smartbot_controller/lib/python3.12/site-packages/smartbot_controller-0.0.0-py3.12.egg-info/PKG-INFO
+[0.664s] -- Installing: /home/nnimpit/smartbot_ws/smartbot/install/smartbot_controller/lib/python3.12/site-packages/smartbot_controller-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.664s] -- Installing: /home/nnimpit/smartbot_ws/smartbot/install/smartbot_controller/lib/python3.12/site-packages/smartbot_controller-0.0.0-py3.12.egg-info/top_level.txt
+[0.664s] -- Up-to-date: /home/nnimpit/smartbot_ws/smartbot/install/smartbot_controller/lib/python3.12/site-packages/smartbot_controller
+[0.664s] -- Up-to-date: /home/nnimpit/smartbot_ws/smartbot/install/smartbot_controller/lib/python3.12/site-packages/smartbot_controller/simple_controller.py
+[0.664s] -- Up-to-date: /home/nnimpit/smartbot_ws/smartbot/install/smartbot_controller/lib/python3.12/site-packages/smartbot_controller/__init__.py
+[0.687s] Listing '/home/nnimpit/smartbot_ws/smartbot/install/smartbot_controller/lib/python3.12/site-packages/smartbot_controller'...
+[0.691s] -- Up-to-date: /home/nnimpit/smartbot_ws/smartbot/install/smartbot_controller/share/smartbot_controller/config
+[0.691s] -- Up-to-date: /home/nnimpit/smartbot_ws/smartbot/install/smartbot_controller/share/smartbot_controller/config/joy_config.yaml
+[0.691s] -- Up-to-date: /home/nnimpit/smartbot_ws/smartbot/install/smartbot_controller/share/smartbot_controller/config/smartbot_controllers.yaml
+[0.691s] -- Up-to-date: /home/nnimpit/smartbot_ws/smartbot/install/smartbot_controller/share/smartbot_controller/config/joy_teleop.yaml
+[0.691s] -- Up-to-date: /home/nnimpit/smartbot_ws/smartbot/install/smartbot_controller/share/smartbot_controller/launch
+[0.691s] -- Up-to-date: /home/nnimpit/smartbot_ws/smartbot/install/smartbot_controller/share/smartbot_controller/launch/controller.launch.py
+[0.691s] -- Up-to-date: /home/nnimpit/smartbot_ws/smartbot/install/smartbot_controller/share/smartbot_controller/launch/joystick_teleop.launch.py
+[0.691s] -- Up-to-date: /home/nnimpit/smartbot_ws/smartbot/install/smartbot_controller/lib/smartbot_controller/simple_controller.py
+[0.692s] -- Up-to-date: /home/nnimpit/smartbot_ws/smartbot/install/smartbot_controller/share/ament_index/resource_index/package_run_dependencies/smartbot_controller
+[0.692s] -- Up-to-date: /home/nnimpit/smartbot_ws/smartbot/install/smartbot_controller/share/ament_index/resource_index/parent_prefix_path/smartbot_controller
+[0.692s] -- Up-to-date: /home/nnimpit/smartbot_ws/smartbot/install/smartbot_controller/share/smartbot_controller/environment/ament_prefix_path.sh
+[0.692s] -- Installing: /home/nnimpit/smartbot_ws/smartbot/install/smartbot_controller/share/smartbot_controller/environment/ament_prefix_path.dsv
+[0.692s] -- Up-to-date: /home/nnimpit/smartbot_ws/smartbot/install/smartbot_controller/share/smartbot_controller/environment/path.sh
+[0.692s] -- Installing: /home/nnimpit/smartbot_ws/smartbot/install/smartbot_controller/share/smartbot_controller/environment/path.dsv
+[0.692s] -- Up-to-date: /home/nnimpit/smartbot_ws/smartbot/install/smartbot_controller/share/smartbot_controller/local_setup.bash
+[0.692s] -- Up-to-date: /home/nnimpit/smartbot_ws/smartbot/install/smartbot_controller/share/smartbot_controller/local_setup.sh
+[0.692s] -- Up-to-date: /home/nnimpit/smartbot_ws/smartbot/install/smartbot_controller/share/smartbot_controller/local_setup.zsh
+[0.693s] -- Installing: /home/nnimpit/smartbot_ws/smartbot/install/smartbot_controller/share/smartbot_controller/local_setup.dsv
+[0.693s] -- Installing: /home/nnimpit/smartbot_ws/smartbot/install/smartbot_controller/share/smartbot_controller/package.dsv
+[0.693s] -- Up-to-date: /home/nnimpit/smartbot_ws/smartbot/install/smartbot_controller/share/ament_index/resource_index/packages/smartbot_controller
+[0.694s] -- Up-to-date: /home/nnimpit/smartbot_ws/smartbot/install/smartbot_controller/share/smartbot_controller/cmake/smartbot_controllerConfig.cmake
+[0.694s] -- Up-to-date: /home/nnimpit/smartbot_ws/smartbot/install/smartbot_controller/share/smartbot_controller/cmake/smartbot_controllerConfig-version.cmake
+[0.694s] -- Installing: /home/nnimpit/smartbot_ws/smartbot/install/smartbot_controller/share/smartbot_controller/package.xml
+[0.694s] Invoked command in '/home/nnimpit/smartbot_ws/smartbot/build/smartbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/nnimpit/smartbot_ws/smartbot/build/smartbot_controller

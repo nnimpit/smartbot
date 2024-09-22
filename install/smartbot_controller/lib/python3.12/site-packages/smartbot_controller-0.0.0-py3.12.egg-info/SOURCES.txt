@@ -1,0 +1,7 @@
+setup.py
+smartbot_controller/__init__.py
+smartbot_controller/simple_controller.py
+smartbot_controller.egg-info/PKG-INFO
+smartbot_controller.egg-info/SOURCES.txt
+smartbot_controller.egg-info/dependency_links.txt
+smartbot_controller.egg-info/top_level.txt

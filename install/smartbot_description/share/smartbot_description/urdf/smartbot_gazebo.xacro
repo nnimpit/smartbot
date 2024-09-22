@@ -1,7 +1,24 @@
 <?xml version="1.0"?>
 
 <robot name="smartbot" xmlns:xacro="http://ros.org/wiki/xacro">
-      <!-- Wheels -->
+  <!-- Wheels -->
+  <!-- Move this one to ros2 control -->
+  <transmission name="wheel_right_transmission">
+    <plugin>transmission_interface/SimpleTransmission</plugin>
+    <actuator name="wheel_right_motor" role="actuator_right"/>
+    <joint name="wheel_right_joint"    role="joint_right">
+      <mechanical_reduction>1.0</mechanical_reduction>
+    </joint>
+  </transmission>
+
+  <transmission name="wheel_left_transmission">
+    <plugin>transmission_interface/SimpleTransmission</plugin>
+    <actuator name="wheel_left_motor" role="actuator_left"/>
+    <joint name="wheel_left_joint"    role="joint_left">
+      <mechanical_reduction>1.0</mechanical_reduction>
+    </joint>
+  </transmission>
+
   <gazebo reference="wheel_left_link">
     <mu1>1000000000000000.0</mu1>
     <mu2>1000000000000000.0</mu2>
@@ -40,5 +57,14 @@
     <minDepth>0.001</minDepth>
     <maxVel>1.0</maxVel>
   </gazebo>
+
+  <!-- ROS 2 Control -->
+    <gazebo>
+    <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+      <robot_param>robot_description</robot_param>
+      <robot_param_node>robot_state_publisher</robot_param_node>
+      <parameters>$(find smartbot_controller)/config/smartbot_controllers.yaml</parameters>
+    </plugin>
+    </gazebo>
 
 </robot>

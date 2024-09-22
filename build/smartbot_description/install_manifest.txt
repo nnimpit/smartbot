@@ -5,6 +5,7 @@
 /home/nnimpit/smartbot_ws/smartbot/install/smartbot_description/share/smartbot_description/meshes/imu_link.STL
 /home/nnimpit/smartbot_ws/smartbot/install/smartbot_description/share/smartbot_description/meshes/base_link.STL
 /home/nnimpit/smartbot_ws/smartbot/install/smartbot_description/share/smartbot_description/urdf/smartbot_gazebo.xacro
+/home/nnimpit/smartbot_ws/smartbot/install/smartbot_description/share/smartbot_description/urdf/smartbot_ros2_control.xacro
 /home/nnimpit/smartbot_ws/smartbot/install/smartbot_description/share/smartbot_description/urdf/smartbot.urdf.xacro
 /home/nnimpit/smartbot_ws/smartbot/install/smartbot_description/share/smartbot_description/models/sun/model-1_3.sdf
 /home/nnimpit/smartbot_ws/smartbot/install/smartbot_description/share/smartbot_description/models/sun/model-1_4.sdf

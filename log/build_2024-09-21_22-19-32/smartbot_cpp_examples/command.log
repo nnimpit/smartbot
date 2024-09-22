@@ -1,0 +1,2 @@
+Invoking command in '/home/nnimpit/smartbot_ws/smartbot/build/smartbot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/nnimpit/smartbot_ws/smartbot/build/smartbot_cpp_examples -- -j12 -l12
+Invoked command in '/home/nnimpit/smartbot_ws/smartbot/build/smartbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/nnimpit/smartbot_ws/smartbot/build/smartbot_cpp_examples -- -j12 -l12

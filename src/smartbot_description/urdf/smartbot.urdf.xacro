@@ -4,7 +4,8 @@
 <robot name="smartbot" xmlns:xacro="http://ros.org/wiki/xacro">
     <!-- Include Gazebo Parameters -->
     <xacro:include filename="$(find smartbot_description)/urdf/smartbot_gazebo.xacro" />
-
+    <xacro:include filename="$(find smartbot_description)/urdf/smartbot_ros2_control.xacro" />
+    
     <link name="base_footprint"/>
 
     <link name="base_link">
