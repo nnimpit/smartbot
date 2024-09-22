@@ -26,6 +26,7 @@ def generate_launch_description():
     )
 
     use_simple_controller = LaunchConfiguration("use_simple_controller")
+
     use_python = LaunchConfiguration("use_python")
     wheel_radius = LaunchConfiguration("wheel_radius")
     wheel_separation = LaunchConfiguration("wheel_separation")
@@ -77,7 +78,7 @@ def generate_launch_description():
                     {"wheel_radius": wheel_radius,
                      "wheel_separation": wheel_separation}],
                 condition=UnlessCondition(use_python),
-            ),
+            )
         ]
     )
 
